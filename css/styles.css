@@ -163,6 +163,21 @@ a  { text-decoration: none;}
         clip: rect(0 0 0 0);
         overflow: hidden;
       }
+      .icon-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 112px;
+        background-color: #f4f4fd;
+        border-radius: 4px;
+        border: 1px solid #8e8f99; 
+        margin-bottom: 8px;
+    }
+    .icon-advantages {
+        position: absolute; 
+        left: center; 
+        top: center;
+    }
       .main-team{
         display: flex;
         gap: 24px;
