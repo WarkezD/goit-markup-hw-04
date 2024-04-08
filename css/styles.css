@@ -332,6 +332,36 @@ margin-bottom: 72px;
     padding-left: 0; 
     margin: 0;
 }
+.portfolio-foto:hover{
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio-foto:hover .overlay-text {
+    transform: translateY(0);
+  }
+.overlay-container {
+    position: relative;
+    overflow: hidden;
+    width: 360px;
+    margin: 0 auto;
+  }
+  .overlay-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    background-color: #4d5ae5;
+    color: #f4f4fd;
+    padding: 40px 32px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 .port-name {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
